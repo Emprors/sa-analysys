@@ -65,11 +65,11 @@
 				<executions>
 					<execution>
 						<id>default-compile</id>
-						<phase>compile</phase>
 						<goals>
 							<goal>compile</goal>
 						</goals>
 						<configuration>
+							<executable>true</executable>
 							<annotationProcessorPaths>
 								<path>
 									<groupId>org.projectlombok</groupId>
